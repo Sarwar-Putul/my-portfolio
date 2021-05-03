@@ -3,6 +3,7 @@ import './MainHeader.css';
 import sarwar from '../../image/sarwar.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import Typewriter from 'typewriter-effect';
 
 const MainHeader = () => {
     return (
@@ -12,9 +13,15 @@ const MainHeader = () => {
                     <img src={sarwar} alt=""/>
                 </div>
                 <div className="profile col-md-6">
-                    <div>
+                    <div className="mb-5">
                         <p className="profile-name">S. M. SARWAR</p>
-                        <p className="work"> <span>Web Developer</span> <span className="ml-5">Programmer</span></p>
+                        <Typewriter
+                            options={{
+                                strings: ['WEB DEVELOPER', 'PROGRAMMER'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
                     </div>
                     <div className="contact">
                         <dl className="row">
