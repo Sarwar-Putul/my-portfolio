@@ -1,0 +1,23 @@
+#skill {
+    background-color: #111318;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.my-skill h4{
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.my-skill h3{
+    color: #3deaa4;
+    font-weight: 900;
+}
+.line{
+    width: 100%;
+    border-bottom: 5px solid  #111318;
+    padding-bottom: 17px;
+    padding-top: 10px;
+}

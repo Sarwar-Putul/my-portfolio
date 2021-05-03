@@ -1,0 +1,11 @@
+#blog{
+    background-color: #111318;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.blog-title h3{
+    padding-top: 20px;
+    color: #3deaa4;
+    font-weight: 900;
+}

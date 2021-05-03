@@ -1,0 +1,42 @@
+#resume {
+    background-color: #111318;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.resume-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 900;
+    text-decoration: underline;
+
+}
+.section-title h3{
+    padding-top: 20px;
+    color: #3deaa4;
+    font-weight: 900;
+}
+
+.cv {
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: #3deaa4;
+    border: 1px solid #3deaa4;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.cv:hover {
+    background: #000;
+    color: #fff;
+    opacity: 1;
+    top: 50px;
+    border: 1px solid #000;
+
+}

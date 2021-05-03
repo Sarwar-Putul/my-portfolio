@@ -1,0 +1,30 @@
+#project{
+    background-color: #111318;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.card{
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+.icon {
+    font-size: 20px;
+}
+.icon:hover{
+    color:#3deaa4;
+    font-size: 28px;
+}
+
+.project-title h3{
+    padding-top: 20px;
+    color: #3deaa4;
+    font-weight: 900;
+}
+.card:hover{
+    height: 500px;
+    width: 500px;
+    overflow: scroll;
+}
