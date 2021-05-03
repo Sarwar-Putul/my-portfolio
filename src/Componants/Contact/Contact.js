@@ -45,7 +45,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </form>
-                    {/* <form className="py-4 px-3 text-white" action="https://formspree.io/f/mwkwblrd" method="post">
+                    {/* <form className="py-4 px-3 text-white" onSubmit={sendEmail} method="post">
                         <div class="form-group">
                             <label for="name">Your Name</label>
                             <input type="text" class="form-control" name="name" id="name" aria-describedby="name" placeholder="Enter name" />
