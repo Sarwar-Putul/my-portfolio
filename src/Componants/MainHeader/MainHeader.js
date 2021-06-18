@@ -7,12 +7,12 @@ import Typewriter from 'typewriter-effect';
 
 const MainHeader = () => {
     return (
-        <>
-            <main style={{height: '400px'}} className="row" id="main-header">
+        <section>
+            <main  className="row" id="main-header">
                 <div className="pic col-md-5 ml-5">
                     <img src={sarwar} alt=""/>
                 </div>
-                <div className="profile col-md-6">
+                <div className="profile col-md-6 ml-5">
                     <div className="mb-5">
                         <p className="profile-name">S. M. SARWAR</p>
                         <Typewriter
@@ -49,7 +49,7 @@ const MainHeader = () => {
                     </div>
                 </div>   
             </main>
-        </>
+        </section>
     );
 };
 

@@ -53,8 +53,12 @@ const Skill = () => {
                             <LinearProgress color="secondary" style={{width: "70%"}} variant="determinate" value={progress} />
                         </div>
                         <div className={classes.root}>
-                            <h4>React</h4>
+                            <h4>React JS</h4>
                             <LinearProgress style={{width: "90%"}} variant="determinate" value={progress} />
+                        </div>
+                        <div className={classes.root}>
+                            <h4>React Native</h4>
+                            <LinearProgress color="secondary" style={{width: "40%"}} variant="determinate" value={progress} />
                         </div>
                    </div>
 
@@ -79,6 +83,10 @@ const Skill = () => {
                         <div className={classes.root}>
                             <h4>Mongodb</h4>
                             <LinearProgress color="secondary" style={{width: "90%"}} variant="determinate" value={progress} />
+                        </div>
+                        <div className={classes.root}>
+                            <h4>Tailwind CSS</h4>
+                            <LinearProgress style={{width: "60%"}} variant="determinate" value={progress} />
                         </div>
                    </div>
 

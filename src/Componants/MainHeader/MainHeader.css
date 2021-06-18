@@ -1,8 +1,7 @@
 #main-header{
-    background: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+    background: linear-gradient(54deg,rgba(21,7,34,.95) 34%,rgba(156, 206, 173, 0.95));
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
     left: 0;
     right: 0;
     /* position: absolute; */

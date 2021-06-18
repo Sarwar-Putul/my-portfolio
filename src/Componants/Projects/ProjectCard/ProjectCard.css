@@ -1,33 +1,13 @@
-#project{
-    background-color: #111318;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.Projects{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-.project-title h3{
-    padding-top: 20px;
-    color: #3deaa4;
-    font-weight: 900;
-}
-
 .project-card{
     width: 300px;
     height: 350px;
     position: relative;
     border-radius: 10px;
     box-shadow: inset;
-    -webkit-box-shadow: 0px 1px 14px 6px rgb(0, 0, 0); 
-    box-shadow: 0px 1px 14px 6px rgb(0, 0, 0);
+    -webkit-box-shadow: 0px 1px 14px 6px rgba(0,0,0,0.34); 
+    box-shadow: 0px 1px 14px 6px rgba(0,0,0,0.34);
     padding: auto;
 }
-
 
 .project-img img{
     width: 100%;
@@ -49,7 +29,7 @@
 .project-card:hover .project-details{
     display:block;
     color: beige;
-    background-color: #150722;
+    background-color: rgb(21, 7, 34);
 }
 
 .icon {
@@ -61,7 +41,7 @@
     text-decoration: none;
 }
 
-.projectLink, .icon{
+.project-link, a{
     background-color: chartreuse;
     width: 300px;
     height: 50px;
@@ -72,8 +52,4 @@
 }
 .project-feature{
     padding-left: 10px;
-}
-
-.more-projects button{
-    
 }
