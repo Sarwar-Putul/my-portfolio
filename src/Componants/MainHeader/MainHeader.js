@@ -17,18 +17,18 @@ const MainHeader = () => {
                         <p className="profile-name">S. M. SARWAR</p>
                         <Typewriter
                             options={{
-                                strings: ['WEB DEVELOPER', 'PROGRAMMER'],
+                                strings: ['WEB DEVELOPER', 'PROGRAMMER', 'MERN STACK DEVELOPER'],
                                 autoStart: true,
                                 loop: true,
                             }}
                         />
                     </div>
                     <div className="contact">
-                        <dl className="row">
+                        {/* <dl className="row">
                             <dt className="contact-title col-md-3">AGE:</dt>
                             <dd className="col-md-6">32</dd>
-                        </dl>
-                        <dl className="row">
+                        </dl> */}
+                        <dl className="row pt-5">
                             <dt className="contact-title col-md-3">PHONE:</dt>
                             <dd className="col-md-6"><a className="text-white" href="tel:+8801723231819">+8801723-231819</a></dd>
                         </dl>

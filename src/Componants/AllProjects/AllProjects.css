@@ -1,0 +1,23 @@
+.allProjects{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.projects-title h3{
+    padding-top: 20px;
+    color: #3deaa4;
+    font-weight: 900;
+}
+
+.back-btn{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.projects-page{
+    background: linear-gradient(54deg,rgba(21,7,34,.95) 34%,rgba(156, 206, 173, 0.95));
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+}

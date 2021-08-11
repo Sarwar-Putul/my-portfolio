@@ -6,23 +6,26 @@ import englishLegue from '../../image/EnglishLeague.png'
 import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { faLink, faShareSquare } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 
 const Projects = () => {
 
     return (
         <section id="project" className="pb-5">
-            <div className='project-title ml-5 pl-5'>
+            <div className='pl-5 ml-5 project-title'>
                 <h3>PROJECTS</h3>
             </div>
-            <div className="Container mt-5 pb-5">
-                <div className="Projects row ml-5 mr-5 pl-5 pb-5">
+            <div className="pb-5 mt-5 Container">
+                <div className="pb-5 pl-5 ml-5 mr-5 Projects row">
                     <div className="project-card">
                         <div className="project-img">
                             <img src={fitnessClub} alt="" />
                         </div>
                         <div className="project-details">
                             <div className="project-feature">
+                                <h5 className="project-name text-center">Fitness Club</h5>
                                 <p><FontAwesomeIcon icon={faCheckCircle} /> Responsive for mobile and desktop.</p>
                                 <p><FontAwesomeIcon icon={faCheckCircle} /> Private Route Implemented.</p> 
                                 <p><FontAwesomeIcon icon={faCheckCircle} /> Dashboard is conditionally separated for admin panel and users.</p>
@@ -44,6 +47,7 @@ const Projects = () => {
                         </div>
                         <div className="project-details">
                             <div className="project-feature">
+                                <h5 className="project-name text-center">Chal Bilash</h5>
                                 <p><FontAwesomeIcon icon={faCheckCircle} /> Responsive for mobile and desktop.</p>
                                 <p><FontAwesomeIcon icon={faCheckCircle} /> Private Route Implemented.</p> 
                                 <p><FontAwesomeIcon icon={faCheckCircle} /> ImageBB for image hosting.</p>
@@ -64,6 +68,7 @@ const Projects = () => {
                         </div>
                         <div className="project-details">
                             <div className="project-feature">
+                                <h5 className="project-name text-center">English League</h5>
                                 <p><FontAwesomeIcon icon={faCheckCircle} /> Responsive for mobile and desktop.</p>
                                 <p><FontAwesomeIcon icon={faCheckCircle} /> Short history of selected team in description.</p> 
                                 <p><FontAwesomeIcon icon={faCheckCircle} /> Dynamic Team name and logo.</p>
@@ -78,8 +83,8 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="more-projects">
-                <button className="btn btn-danger">More Projects</button>
+            <div className="more-projects ">
+                <Link to='/allProjects'><Button className="default-btn">More Projects  <FontAwesomeIcon icon={faShareSquare} /></Button></Link>
             </div>
         </section>
     );
